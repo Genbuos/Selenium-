@@ -1,4 +1,4 @@
-package work;
+package work.windowActivity;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -20,7 +20,7 @@ public class Selena {
         //Selenium Manager - automatically grabs our .exe
         WebDriver driver = new ChromeDriver();
         WebDriver driver2 = new FirefoxDriver();
-        WebDriver driver3 = new EdgeDriver();
+        WebDriver driver3 =  new EdgeDriver();
 
 
         //Firefox Launch
@@ -41,6 +41,7 @@ public class Selena {
         driver.close();
 
         //Edge Launch
+
         driver3.get("https://youtube.com/@berleezy");
         var title3 = driver3.getTitle();
         System.out.println(title3);
