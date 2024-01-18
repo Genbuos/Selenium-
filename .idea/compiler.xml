@@ -12,7 +12,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="work" options="--add-exports jdk.compiler/io.cucumber.java.en=ALL-UNNAMED --add-exports jdk.internal.vm.ci/org.openqa.selenium=ALL-UNNAMED --add-exports jdk.localedata/org.openqa.selenium.firefox=ALL-UNNAMED --add-exports jdk.localedata/org.openqa.selenium.edge=ALL-UNNAMED --add-exports jdk.charsets/io.cucumber.java=ALL-UNNAMED" />
+      <module name="work" options="" />
     </option>
   </component>
 </project>

@@ -60,8 +60,8 @@ public class StaticDropDown2 {
         //choosing 3 adults
         WebDriver driver = new ChromeDriver();
 
-        driver.get("https://spicejet.com");
-        driver.findElement(By.xpath("//*[@id='main-container']/div/div[1]/div[3]/div[2]/div[5]/div[1]/div/div[1]/div[1]")).click();
+        driver.get("http://spicejet.com");
+        driver.findElement(By.xpath("//*[@id='main-container']/div/div[1]/div[3]/div[2]/div[5]/div[1]/div/div/div[2]")).click();
 
         driver.findElement(By.xpath("//*[@id='main-container']/div/div[1]/div[3]/div[2]/div[5]/div[1]/div/div[2]/div[2]/div/div[1]/div[1]/div[2]/div[3]")).click();
         driver.findElement(By.xpath("//*[@id='main-container']/div/div[1]/div[3]/div[2]/div[5]/div[1]/div/div[2]/div[2]/div/div[1]/div[1]/div[2]/div[3]")).click();
